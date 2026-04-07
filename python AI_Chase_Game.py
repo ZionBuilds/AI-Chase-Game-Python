@@ -9,8 +9,9 @@ pygame.init()
 grid_size = 50
 grid_width = 10
 grid_height = 5
+BUTTON_SECTION_HEIGHT = 150  # Variable for extra space
 screen_width = grid_width * grid_size
-screen_height = grid_height * grid_size + 150  # extra space for buttons
+screen_height = (grid_height * grid_size) + BUTTON_SECTION_HEIGHT
 
 # ----- Colors -----
 WHITE = (255, 255, 255)
